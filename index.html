@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cantonese Tutor - Level 1: Foundation</title>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+        }
+        .top-banner {
+            background-color: #d1ecf1;
+            border: 1px solid #bee5eb;
+            color: #0c5460;
+            padding: 15px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            text-align: center;
+            font-size: 1.1em;
+            font-weight: bold;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        h1, h2, h3, h4 {
+            color: #2c3e50;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+        h1 {
+            text-align: center;
+            border-bottom: none;
+            padding-bottom: 0;
+            margin-bottom: 20px;
+            color: #007bff;
+            font-size: 2.5em;
+        }
+        h2 {
+            color: #0056b3;
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 8px;
+            margin-top: 40px;
+            font-size: 1.8em;
+        }
+        h3 {
+            color: #34495e;
+            border-bottom: 1px dashed #ccc;
+            padding-bottom: 5px;
+            margin-top: 25px;
+            font-size: 1.4em;
+        }
+        h4 {
+            color: #555;
+            margin-top: 20px;
+            font-size: 1.2em;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        ol {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        .lesson-goal {
+            font-style: italic;
+            color: #555;
+            margin-bottom: 20px;
+            padding-left: 15px;
+            border-left: 4px solid #007bff;
+            border-radius: 4px;
+            background-color: #eaf6ff;
+            padding: 15px;
+        }
+        .pronunciation-tip {
+            background-color: #e6f7ff;
+            border-left: 4px solid #007bff;
+            padding: 10px 15px;
+            margin: 15px 0;
+            border-radius: 8px;
+            color: #004085;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        .important-note {
+            background-color: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 10px 15px;
+            margin: 15px 0;
+            border-radius: 8px;
+            color: #856404;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        .action-item {
+            background-color: #d4edda;
+            border-left: 4px solid #28a745;
+            padding: 10px 15px;
+            margin: 15px 0;
+            border-radius: 8px;
+            color: #155724;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        .exercise-section {
+            background-color: #f8f9fa;
+            border: 1px solid #dee2e6;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 30px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+        .exercise-section h3 {
+            color: #6c757d;
+            border-bottom: 1px solid #dee2e6;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        code {
+            background-color: #f0f0f0;
+            padding: 2px 4px;
+            border-radius: 4px;
+            font-family: 'Consolas', 'Monaco', monospace;
+            color: #c7254e;
+        }
+        .example-block {
+            background-color: #f9f9f9;
+            border: 1px dashed #e9ecef;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 6px;
+        }
+        .dialogue {
+            background-color: #f0f8ff;
+            border-left: 3px solid #add8e6;
+            padding: 10px 15px;
+            margin: 10px 0;
+            border-radius: 6px;
+        }
+        hr {
+            border: 0;
+            height: 1px;
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0));
+            margin: 40px 0;
+        }
+        /* LaTeX styling */
+        .latex {
+            font-family: 'Times New Roman', serif;
+            font-style: normal;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="top-banner">
+            You've completed all of Level 1! When you're ready for the next lesson, just ask me for **"Lesson 1.8"**!
+        </div>
+
+        <h1>Cantonese Tutor - Level 1: Foundation</h1>
+        <hr>
+
+        <h2>Level 1: Introduction to Tones and Basic Greetings</h2>
+        <p class="lesson-goal"><strong>Goal:</strong> Understand the concept of Cantonese tones, learn the most fundamental greetings, and practice initial pronunciation.</p>
+
+        <h3>Lesson 1.1: The Six Tones of Cantonese</h3>
+        <p>Cantonese is a tonal language, which means the same sound can have different meanings depending on the pitch contour of your voice. This is crucial for being understood! There are six main tones in standard Cantonese.</p>
+        <p>Let's use the sound "aa" (like the "a" in "father") as an example for all six tones.</p>
+        <ul>
+            <li><strong>High Flat (陰平 - yam ping):</strong> High and level. Like singing a high note and holding it.
+                <div class="example-block">Example: <span class="latex">$aa^1$</span> (啊) - often used as an exclamation of surprise or understanding.</div>
+            </li>
+            <li><strong>High Rising (陰上 - yam seung):</strong> Starts mid-range and rises to high. Like asking a question in English.
+                <div class="example-block">Example: <span class="latex">$aa^2$</span> (啊) - similar to tone 1, but with a rising intonation.</div>
+            </li>
+            <li><strong>Mid Flat (陰去 - yam heui):</strong> Mid-range and level.
+                <div class="example-block">Example: <span class="latex">$aa^3$</span> (啊) - similar to tone 1, but at a lower pitch.</div>
+            </li>
+            <li><strong>Low Falling (陽平 - yeung ping):</strong> Starts low and falls even lower.
+                <div class="example-block">Example: <span class="latex">$aa^4$</span> (啊) - similar to tone 1, but with a falling intonation.</div>
+            </li>
+            <li><strong>Low Rising (陽上 - yeung seung):</strong> Starts low and rises to mid-range. This one can be tricky for English speakers.
+                <div class="example-block">Example: <span class="latex">$aa^5$</span> (啊) - similar to tone 2, but at a lower starting pitch.</div>
+            </li>
+            <li><strong>Low Flat (陽去 - yeung heui):</strong> Low and level.
+                <div class="example-block">Example: <span class="latex">$aa^6$</span> (啊) - similar to tone 3, but at a lower pitch.</div>
+            </li>
+        </ul>
+        <div class="important-note">
+            <strong>Important Note:</strong> Don't get overwhelmed by the tones initially. We'll practice them constantly with real words. The best way to learn is by listening and imitating.
+        </div>
+        <hr>
+
+        <h3>Lesson 1.2: Basic Greetings</h3>
+        <p>Now let's put some tones into action with essential greetings.</p>
+        <ul>
+            <li><strong>Hello / Hi:</strong> 你好 (<span class="latex">nei5 hou2</span>)
+                <ul>
+                    <li>你 (<span class="latex">nei5</span>) - you (low rising tone)</li>
+                    <li>好 (<span class="latex">hou2</span>) - good (high rising tone)</li>
+                </ul>
+                <div class="pronunciation-tip"><em>Pronunciation Tip:</em> "nei" sounds like "nay" in English. "hou" sounds like "ho" in "hoe."</div>
+            </li>
+            <li><strong>Good Morning:</strong> 早晨 (<span class="latex">jou2 san4</span>)
+                <ul>
+                    <li>早 (<span class="latex">jou2</span>) - early (high rising tone)</li>
+                    <li>晨 (<span class="latex">san4</span>) - morning (low falling tone)</li>
+                </ul>
+                <div class="pronunciation-tip"><em>Pronunciation Tip:</em> "jou" sounds like "joe." "san" sounds like "sun."</div>
+            </li>
+            <li><strong>Good Night:</strong> 晚安 (<span class="latex">maan5 on1</span>)
+                <ul>
+                    <li>晚 (<span class="latex">maan5</span>) - evening (low rising tone)</li>
+                    <li>安 (<span class="latex">on1</span>) - peace/safe (high flat tone)</li>
+                </ul>
+                <div class="pronunciation-tip"><em>Pronunciation Tip:</em> "maan" sounds like "man" in "maniac." "on" sounds like "on."</div>
+            </li>
+        </ul>
+        <hr>
+
+        <h3>Lesson 1.3: Practice Pronunciation</h3>
+        <p>The best way to get these tones right is to listen to native speakers and try to mimic them. Since I can't play audio directly here, I strongly recommend you use an online Cantonese dictionary or a translator app with audio playback. Search for "Cantonese pronunciation audio" for these phrases.</p>
+        <div class="action-item">
+            <strong>Action Item:</strong> Find audio for 你好 (<span class="latex">nei5 hou2</span>), 早晨 (<span class="latex">jou2 san4</span>), and 晚安 (<span class="latex">maan5 on1</span>) and practice saying them out loud until you feel you're getting closer to the native pronunciation.
+        </div>
+        <div class="exercise-section">
+            <h3>Exercises for Lesson 1</h3>
+
+            <h4>Exercise 1.1: Tone Recognition (Conceptual)</h4>
+            <ol>
+                <li>If someone says "maa" and it sounds high and flat, and then says "maa" again and it sounds low and falling, do these two "maa"s likely have the same meaning or different meanings in Cantonese?</li>
+                <li>Why is learning tones important in Cantonese?</li>
+            </ol>
+
+            <h4>Exercise 1.2: Dialogue Practice</h4>
+            <p>Read the following mini-dialogue out loud, focusing on the tones you've learned for the greeting words.</p>
+            <div class="dialogue">
+                <p><strong>Dialogue 1:</strong></p>
+                <p>A: 你好！(<span class="latex">nei5 hou2</span>)</p>
+                <p>B: 你好！(<span class="latex">nei5 hou2</span>)</p>
+            </div>
+            <div class="dialogue">
+                <p><strong>Dialogue 2:</strong></p>
+                <p>A: 早晨！(<span class="latex">jou2 san4</span>)</p>
+                <p>B: 早晨！(<span class="latex">jou2 san4</span>)</p>
+            </div>
+            <div class="dialogue">
+                <p><strong>Dialogue 3:</strong></p>
+                <p>A: 晚安！(<span class="latex">maan5 on1</span>)</p>
+                <p>B: 晚安！(<span class="latex">maan5 on1</span>)</p>
+            </div>
+
+            <h4>Exercise 1.3: Translation Mini-Text</h4>
+            <p>Translate the following simple sentences into Cantonese using the vocabulary you've learned.</p>
+            <ol>
+                <li>Hello!</li>
+                <li>Good morning!</li>
+                <li>Good night!</li>
+            </ol>
+        </div>
+        <hr>
+
+        <h2>Level 1: Basic Personal Pronouns and "To Be"</h2>
+        <p class="lesson-goal"><strong>Goal:</strong> Learn how to say "I," "you," and "he/she/it," and introduce the concept of "to be."</p>
+
+        <h3>Lesson 1.4: Personal Pronouns</h3>
+        <p>These are fundamental for constructing even the simplest sentences.</p>
+        <ul>
+            <li><strong>I / Me:</strong> 我 (<span class="latex">ngo5</span>)
+                <div class="pronunciation-tip"><em>Pronunciation Tip:</em> Sounds a bit like "ngaw" (like "Gaw" with an "n" sound at the beginning, like the "ng" in "sing"). This is the low rising tone (Tone 5).</div>
+            </li>
+            <li><strong>You (singular, informal):</b> 你 (<span class="latex">nei5</span>)
+                <div class="pronunciation-tip"><em>Pronunciation Tip:</em> We already learned this! Sounds like "nay." (Tone 5).</div>
+            </li>
+            <li><strong>He / She / It:</strong> 佢 (<span class="latex">keoi5</span>)
+                <div class="pronunciation-tip"><em>Pronunciation Tip:</em> Sounds like "koy" (rhymes with "boy"). This is also a low rising tone (Tone 5).</div>
+            </li>
+        </ul>
+        <p>Notice a pattern with the tones for these pronouns? They all share the same tone! This can make it a little easier to remember their pitch.</p>
+        <hr>
+
+        <h3>Lesson 1.5: The Verb "To Be" (係 - <span class="latex">hai6</span>)</h3>
+        <p>In Cantonese, the verb "to be" (is, am, are) is <strong>係 (<span class="latex">hai6</span>)</strong>.</p>
+        <ul>
+            <li><strong>係 (<span class="latex">hai6</span>)</strong> - is / am / are (low flat tone)
+                <div class="pronunciation-tip"><em>Pronunciation Tip:</em> Sounds like "hai" (rhymes with "high").</div>
+            </li>
+        </ul>
+        <p>Let's put this together with our pronouns.</p>
+        <ul>
+            <li><strong>I am:</strong> 我係 (<span class="latex">ngo5 hai6</span>)</li>
+            <li><strong>You are:</strong> 你係 (<span class="latex">nei5 hai6</span>)</li>
+            <li><strong>He/She/It is:</strong> 佢係 (<span class="latex">keoi5 hai6</span>)</li>
+        </ul>
+        <hr>
+
+        <h3>Lesson 1.6: Simple Introductions</h3>
+        <p>Now we can combine everything to form very basic sentences.</p>
+        <ul>
+            <li><strong>I am [Name]:</strong> 我係 [Name]. (<span class="latex">ngo5 hai6</span> [Name])
+                <div class="example-block">Example: 我係 Tom. (I am Tom.)</div>
+            </li>
+            <li><strong>Are you [Name]?:</strong> 你係唔係 [Name]? (<span class="latex">nei5 hai6 m4 hai6</span> [Name]?)
+                <p><strong>唔係 (<span class="latex">m4 hai6</span>)</strong> is "is not" / "am not" / "are not." This construction "A is B, or is not B?" is a common way to ask a "yes/no" question in Cantonese. We'll dive deeper into questions later, but it's good to see it now.</p>
+                <ul>
+                    <li>唔 (<span class="latex">m4</span>) - not (low falling tone, almost a hum)</li>
+                    <li>係 (<span class="latex">hai6</span>) - is (low flat tone)</li>
+                </ul>
+                <div class="pronunciation-tip"><em>Pronunciation Tip:</em> "m" is just a short hum, like saying "mmm-hmm" without the "hmm."</div>
+            </li>
+        </ul>
+
+        <div class="exercise-section">
+            <h3>Exercises for Lesson 2</h3>
+
+            <h4>Exercise 2.1: Pronoun and Verb Practice</h4>
+            <p>Say the following phrases out loud. Focus on getting the pronunciation of each word right, especially the tones.</p>
+            <ol>
+                <li>我 (<span class="latex">ngo5</span>)</li>
+                <li>你 (<span class="latex">nei5</span>)</li>
+                <li>佢 (<span class="latex">keoi5</span>)</li>
+                <li>係 (<span class="latex">hai6</span>)</li>
+                <li>我係 (<span class="latex">ngo5 hai6</span>)</li>
+                <li>你係 (<span class="latex">nei5 hai6</span>)</li>
+                <li>佢係 (<span class="latex">keoi5 hai6</span>)</li>
+            </ol>
+
+            <h4>Exercise 2.2: Fill in the Blanks</h4>
+            <p>Fill in the blank with the correct Cantonese pronoun.</p>
+            <ol>
+                <li>\_ 係 David. (I am David.)</li>
+                <li>\_ 係 Susan. (He/She is Susan.)</li>
+                <li>\_ 係唔係 Mary? (Are you Mary?)</li>
+            </ol>
+
+            <h4>Exercise 2.3: Translation Mini-Text</h4>
+            <p>Translate the following English sentences into Cantonese.</p>
+            <ol>
+                <li>I am Lily.</li>
+                <li>You are Peter.</li>
+                <li>He is John.</li>
+                <li>Is she Sarah? (Use the "A is B or is not B" structure: "She is or is not Sarah?")</li>
+            </ol>
+        </div>
+        <hr>
+
+        <h2>Level 1 (Continued)</h2>
+        <h3>Lesson 1.7: Saying "Yes" and "No"</h3>
+        <p class="lesson-goal"><strong>Goal:</strong> Learn the various ways to say "yes" and "no" in Cantonese, and understand their common usages.</p>
+
+        <h4>1.7.1: "Yes" and "No" (Direct)</h4>
+        <p>The simplest way to answer "yes" or "no" to a "to be" question (like "Are you...?") is to use the verb 係 (<span class="latex">hai6</span>) itself, or its negation 唔係 (<span class="latex">m4 hai6</span>).</p>
+        <ul>
+            <li><strong>Yes:</strong> 係 (<span class="latex">hai6</span>) - (low flat tone)
+                <div class="pronunciation-tip"><em>Pronunciation Tip:</em> Sounds like "hai" (rhymes with "high"). This is the same word as "is/am/are."</div>
+            </li>
+            <li><strong>No:</strong> 唔係 (<span class="latex">m4 hai6</span>) - (low falling tone for 唔, low flat tone for 係)
+                <div class="pronunciation-tip"><em>Pronunciation Tip:</em> "m" is a hum, "hai" as before. This is the same as "is not/am not/are not."</div>
+            </li>
+        </ul>
+        <div class="example-block">
+            <p><strong>Example Dialogue:</strong></p>
+            <p>A: 你係 Peter 嗎？ (<span class="latex">nei5 hai6 Peter ma1</span>?) - Are you Peter?</p>
+            <p>B: 係。 (<span class="latex">hai6</span>) - Yes, I am.</p>
+            <p>C: 唔係。 (<span class="latex">m4 hai6</span>) - No, I'm not.</p>
+            <p>*(Note: 嗎 (<span class="latex">ma1</span>) is a common question particle, which we'll learn more about later. For now, focus on the answers.)*</p>
+        </div>
+
+        <h4>1.7.2: Softer Affirmations/Negations (呀 - <span class="latex">aa3</span>)</h4>
+        <p>Adding the particle 呀 (<span class="latex">aa3</span>) makes the answer sound softer, more polite, or confirms understanding.</p>
+        <ul>
+            <li><strong>Yes (softer/confirming):</strong> 係呀 (<span class="latex">hai6 aa3</span>) - (low flat for 係, mid flat for 呀)
+                <div class="pronunciation-tip"><em>Pronunciation Tip:</em> "aa" here is like the "a" in "father," with a mid-level tone.</div>
+            </li>
+            <li><strong>No (softer negation):</strong> 唔係呀 (<span class="latex">m4 hai6 aa3</span>) - (low falling for 唔, low flat for 係, mid flat for 呀)</li>
+        </ul>
+        <div class="example-block">
+            <p><strong>Example Dialogue:</strong></p>
+            <p>A: 佢係 Lily 呀？ (<span class="latex">keoi5 hai6 Lily aa3</span>?) - Is she Lily?</p>
+            <p>B: 係呀。 (<span class="latex">hai6 aa3</span>) - Yes, she is. (Confirming)</p>
+            <p>C: 唔係呀。 (<span class="latex">m4 hai6 aa3</span>) - No, she isn't. (A bit softer than just 唔係)</p>
+        </div>
+
+        <h4>1.7.3: "Yes" (Emphatic/Natural) - 係嘅 (<span class="latex">hai6 ge2</span>)</h4>
+        <p>Adding 嘅 (<span class="latex">ge2</span>) can make "yes" sound more natural, or emphatic, often implying "that's right" or "it is indeed."</p>
+        <ul>
+            <li><strong>Yes (emphatic/natural):</strong> 係嘅 (<span class="latex">hai6 ge2</span>) - (low flat for 係, high rising for 嘅)
+                <div class="pronunciation-tip"><em>Pronunciation Tip:</em> "ge" sounds like "geh" in "get."</div>
+            </li>
+        </ul>
+        <div class="example-block">
+            <p><strong>Example Dialogue:</strong></p>
+            <p>A: 你係學生嚟㗎？ (<span class="latex">nei5 hai6 hok6 saang1 lai4 ga3</span>?) - Are you a student?</p>
+            <p>B: 係嘅。 (<span class="latex">hai6 ge2</span>) - Yes, I am. (Natural, affirmative response)</p>
+        </div>
+
+        <h4>1.7.4: "Good/Okay" (可以 - <span class="latex">ho2 yi5</span>)</h4>
+        <p>While not a direct "yes" or "no" to a "to be" question, "good" or "okay" can often serve as an affirmative answer to proposals or suggestions.</p>
+        <ul>
+            <li><strong>Okay / All right:</strong> 可以 (<span class="latex">ho2 yi5</span>) - (high rising for 可, low rising for 以)
+                <div class="pronunciation-tip"><em>Pronunciation Tip:</em> "ho" as in "hoe", "yi" as in "yee".</div>
+            </li>
+        </ul>
+        <div class="example-block">
+            <p><strong>Example Dialogue:</strong></p>
+            <p>A: 我哋而家去食飯？ (<span class="latex">ngo5 dei6 yi4 gaa1 heoi3 sik6 faan6</span>?) - Shall we go eat now?</p>
+            <p>B: 可以。 (<span class="latex">ho2 yi5</span>) - Okay / All right.</p>
+        </div>
+
+        <div class="exercise-section">
+            <h3>Exercises for Lesson 1.7</h3>
+
+            <h4>Exercise 1.7.1: Choose the Correct Answer</h4>
+            <p>Choose the most appropriate Cantonese response (係, 唔係, 係呀, 唔係呀) for the following English answers, assuming a simple "is/are" question.</p>
+            <ol>
+                <li>Yes, he is. (direct)</li>
+                <li>No, I'm not. (direct)</li>
+                <li>Yes, she is. (confirming, softer)</li>
+                <li>No, it isn't. (softer negation)</li>
+            </ol>
+
+            <h4>Exercise 1.7.2: Complete the Dialogue</h4>
+            <p>Fill in the blanks with a suitable Cantonese "yes" or "no" response.</p>
+            <div class="dialogue">
+                <p>A: 你係老師嗎？ (<span class="latex">nei5 hai6 lou5 si1 ma1</span>?) - Are you a teacher?</p>
+                <p>B: ____。</p>
+            </div>
+            <div class="dialogue">
+                <p>A: 佢係你細佬呀？ (<span class="latex">keoi5 hai6 nei5 sai3 lou2 aa3</span>?) - Is he your younger brother?</p>
+                <p>B: ____。</p>
+            </div>
+            <div class="dialogue">
+                <p>A: 我哋聽日去公園好唔好？ (<span class="latex">ngo5 dei6 ting1 yat6 heoi3 gung1 yun4 hou2 m4 hou2</span>?) - Shall we go to the park tomorrow?</p>
+                <p>B: ____。(Okay)</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <p class="lesson-goal">You've reached the end of Level 1! Keep practicing the pronunciation using online audio resources. When you're ready, just ask me for **"Lesson 1.8"** to continue your learning journey!</p>
+    </div>
+</body>
+</html>
